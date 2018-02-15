@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="finelocrequest">5</integer>
+    <integer name="courselocrequest">6</integer>
+    <integer name ="menu_drawer_action">1</integer>
+    <integer name="netrequest">7893</integer>
+    <integer name="PICTURE_REQUEST">253</integer>
+    <integer name="changePictureID">8984</integer>
+</resources>

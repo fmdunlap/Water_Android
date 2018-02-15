@@ -1,0 +1,68 @@
+<resources>
+    <string name="fb_app_id" translatable="false">1875667246005601</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1875667246005601</string>
+
+    <string name="app_name">Water</string>
+    <string name="tv_question_default">On which island was Napolean exiled following his defeat at Waterloo?</string>
+    <string name="tv_raised_default">You\'ve added # drops to the well!</string>
+    <string name="default_answer_text">ANSWER ANSWER ANSWER</string>
+    <string name="submit_button_text">Submit!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="donate_fragment_title">Donate</string>
+    <string name="one_dollar_text">$1</string>
+    <string name="purchase_button_text">Purchase</string>
+    <string name="t25_dollar_text">$25</string>
+    <string name="ten_dollar_text">$10</string>
+    <string name="five_dollar_text">$5</string>
+    <string name="other_et_label">Other Amount...</string>
+    <string name="defualt_user_name">USER NOT FOUND</string>
+
+    <string name="base_tdb_url" translatable="false">https://opentdb.com/api.php</string>
+    <string name="genSuffix" translatable="false">gen_</string>
+    <string name="start_game_string">Start!</string>
+    <string name="true_button_text">True</string>
+    <string name="false_button_text">False</string>
+    <string name="leaderboard_string">Leaderboard</string>
+    <string name="about_string">About</string>
+    <string name="sign_in_cancelled">Sign-in Cancelled</string>
+    <string name="no_internet">Not connected to the Internet</string>
+    <string name="unknown_error">An unknown error occurred.</string>
+    <string name="unknown_sign_in_response">Sign in response unknown.</string>
+    <string name="correct">Correct Answer!</string>
+    <string name="incorrect">Wrong Answer!</string>
+    <string name="map_drops_added">Drops added to the well:</string>
+    <string name="no_drops_yet">No drops for this location yet!</string>
+    <string name="okay">Okay</string>
+    <string name="sign_out">Logout</string>
+    <string name="change_profile">Change Profile Picture</string>
+    <string name="map_first_bool">MAP_FIRST_BOOL_KEY</string>
+    <string name="about_water">Water™ - An app with a two-fold purpose.
+1) To educate the young, and the old alike.
+2) To provide access to clean water to those who need it around the world.
+	(In collaboration with charity: water).
+
+The app itself presents simply: We provide users the opportunity to play educational
+games, take quizes, and read articles. During this time we display ads for one purpose
+- to raise money for charity: water. Simply by using the app, you\'re raising money for
+a cause greater than yourself.
+
+
+APIs Used:
+	-Firebase+Google Sign-in for storing user info, score counts, global stats, etc.
+	-Maps for displaying geo-info (regional competition) about the \'game\'s players\'.
+	-AdMob for revenue generation (Core point about the game)
+	-POSSIBLY: Ai.api for an oponent of some kind
+	-POSSIBLY: Twitter/Instagram/Facebook for the purpose of sharing
+	-POSSIBLY: Google Analytics for me myself and I. I\'m curious about who would useit.
+
+Technologies Used:
+	-Notifications, probably. Lame, I know.
+	-Material Design. Just for fucking modernity.
+	-Probably an addition API/REST service for content purposes.</string>
+    <string name="map_first">Tap on a state to see how many drops of water that state has added to the well!</string>
+    <string name="alert_string_bundle_key">ALERT_STRING_BUNDLE_KEY</string>
+
+    <!--Category Names-->
+</resources>

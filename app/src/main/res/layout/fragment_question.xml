@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.QuestionFragment"
+    android:background="@color/colorPrimary">
+
+    <ProgressBar
+        android:id="@+id/question_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <itp341.dunlap.forrest.water.views.QuestionTextView
+        android:id="@+id/correct_view"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:text="Nailed it"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/question_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <itp341.dunlap.forrest.water.views.QuestionTextView
+            android:id="@+id/tv_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/tv_question_default"
+            android:foregroundGravity="center"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:elevation="8dp"
+            android:layout_centerHorizontal="true" />
+
+        <!--TODO: Make these into singular buttons because prettier. Will have to be done programmatically-->
+        <LinearLayout
+            android:id="@+id/answer_button_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_question"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pages">
+        <item>Home</item>
+        <item>Map</item>
+        <item>Profile</item>
+        <item>Donate</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>gen_General</item>
+        <item>cat_All</item>
+        <item>cat_General Knowledge</item>
+        <item>gen_Entertainment</item>
+        <item>cat_Books</item>
+        <item>cat_Comics</item>
+        <item>cat_Film</item>
+        <item>cat_Musicals and Theater</item>
+        <item>cat_Music</item>
+        <item>cat_Television</item>
+        <item>cat_Board Games</item>
+        <item>cat_Video Games</item>
+        <item>gen_Science</item>
+        <item>cat_Science and Nature</item>
+        <item>cat_Computers</item>
+        <item>cat_Mathematics</item>
+        <item>cat_Gadgets</item>
+        <item>gen_Other</item>
+        <item>cat_Sports</item>
+        <item>cat_Mythology</item>
+        <item>cat_History</item>
+        <item>cat_Geography</item>
+        <item>cat_Politics</item>
+        <item>cat_Art</item>
+        <item>cat_Celebrities</item>
+        <item>cat_Animals</item>
+        <item>cat_Vehicles</item>
+    </string-array>
+
+</resources>

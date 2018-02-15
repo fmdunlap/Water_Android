@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="changePictureButton" type="id">2324</item>
+    <item name="signOutButton" type="id">6543</item>
+</resources>
