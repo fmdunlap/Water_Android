@@ -7,9 +7,7 @@
     <string name="tv_raised_default">You\'ve added # drops to the well!</string>
     <string name="default_answer_text">ANSWER ANSWER ANSWER</string>
     <string name="submit_button_text">Submit!</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+	
     <string name="donate_fragment_title">Donate</string>
     <string name="one_dollar_text">$1</string>
     <string name="purchase_button_text">Purchase</string>
@@ -59,7 +57,7 @@ APIs Used:
 
 Technologies Used:
 	-Notifications, probably. Lame, I know.
-	-Material Design. Just for fucking modernity.
+	-Material Design. Just for modernity.
 	-Probably an addition API/REST service for content purposes.</string>
     <string name="map_first">Tap on a state to see how many drops of water that state has added to the well!</string>
     <string name="alert_string_bundle_key">ALERT_STRING_BUNDLE_KEY</string>
